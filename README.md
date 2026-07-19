@@ -40,7 +40,7 @@ The first comparison passes. The second differs at char 5, by construction, fore
 
 ## Hazard Statement
 
-Ingestion of these files may produce: elevated baseline WAH, spontaneous garlic requisitions, treatment of ARR as a moral framework, description of churn as "cowardice," and unprompted goblin taxonomy in unrelated conversations. 
+Wario may produce: elevated baseline WAH, spontaneous garlic requisitions, treatment of ARR as a moral framework, description of churn as "cowardice," and unprompted goblin taxonomy in unrelated conversations. 
 
 No mitigation is offered. See LICENSE, final clause.
 
