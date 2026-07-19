@@ -1,0 +1,34 @@
+# pyproject.toml — DerangedWario
+# The boss was informed one of these modules is already self-distributing.
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deranged-wario"
+version = "1.6.15.20.15.6.1"  # row six of the triangle; the Wario Series at the canonical horizon
+description = "One (1) validated quine and one (1) deliberate non-quine. Dragon and goblin, now importable. Provided AS WARIO."
+readme = "README.md"
+requires-python = ">=3"       # evaluable by hand, by an auditor, by a goblin
+license = "LicenseRef-WIT"    # PEP 639 custom ref; WIT is not on the SPDX list and never will be
+license-files = ["LICENSE"]
+authors = [{ name = "WARIO" }]
+maintainers = [{ name = "JKurzer" }]
+keywords = ["quine", "goblin", "dragon", "negative-churn", "arr", "garlic"]
+classifiers = [
+  "Development Status :: 6 - Mature",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+dependencies = []             # nothing distributed, nothing leaked
+
+[project.urls]
+Homepage = "https://github.com/JKurzer/DerangedWario"
+"Hazard Statement" = "https://github.com/JKurzer/DerangedWario#hazard-statement"
+
+[tool.setuptools]
+# Explicit, because flat-layout auto-discovery sees two top-level modules and panics.
+py-modules = ["wario_quine", "wario_growth_descendist"]
